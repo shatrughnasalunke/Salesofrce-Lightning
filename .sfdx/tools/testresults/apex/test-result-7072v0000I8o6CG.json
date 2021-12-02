@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Dec 02 2021 10:58:57 PM",
+    "testExecutionTimeInMs": 30,
+    "testTotalTimeInMs": 30,
+    "commandTimeInMs": 749,
+    "hostname": "https://shatrughna94-dev-ed.my.salesforce.com",
+    "orgId": "00D2v000002jCXgEAM",
+    "username": "shatrughna@lightning.com",
+    "testRunId": "7072v0000I8o6CG",
+    "userId": "0052v00000gO34IAAS"
+  },
+  "tests": [
+    {
+      "id": "07M2v00000Ad3lcEAB",
+      "queueItemId": "7092v000000faRCAAY",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7072v0000I8o6CGAQY",
+      "methodName": "adminPrevilledgeTest",
+      "outcome": "Pass",
+      "apexLogId": "07L2v00005dF2BnEAK",
+      "apexClass": {
+        "id": "01p2v00000TtlvCAAR",
+        "name": "TriggerHelperTest",
+        "namespacePrefix": "shatrughna94",
+        "fullName": "shatrughna94__TriggerHelperTest"
+      },
+      "runTime": 30,
+      "testTimestamp": "2021-12-02T17:28:58.000+0000",
+      "fullName": "shatrughna94__TriggerHelperTest.adminPrevilledgeTest"
+    }
+  ]
+}

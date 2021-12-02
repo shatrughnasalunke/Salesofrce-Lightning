@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Dec 02 2021 9:33:31 PM",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 556,
+    "hostname": "https://shatrughna94-dev-ed.my.salesforce.com",
+    "orgId": "00D2v000002jCXgEAM",
+    "username": "shatrughna@lightning.com",
+    "testRunId": "7072v0000I8ntWt",
+    "userId": "0052v00000gO34IAAS"
+  },
+  "tests": [
+    {
+      "id": "07M2v00000Ad3lSEAR",
+      "queueItemId": "7092v000000faR2AAI",
+      "stackTrace": "Class.shatrughna94.contactUtilityTest.contactTestData: line 15, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, shatrughna94.ContactTriggerVersion1: execution of BeforeInsert\n\ncaused by: line 8, column 40: Method does not exist or incorrect signature: void preventDuplicateContact(Map<Id,Contact>) from the type shatrughna94.ContactTriggerHelperV1: []",
+      "asyncApexJobId": "7072v0000I8ntWtAQI",
+      "methodName": "sendEmailNotificationTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p2v00000TtlusAAB",
+        "name": "contactUtilityTest",
+        "namespacePrefix": "shatrughna94",
+        "fullName": "shatrughna94__contactUtilityTest"
+      },
+      "runTime": 0,
+      "testTimestamp": "2021-12-02T16:03:32.000+0000",
+      "fullName": "shatrughna94__contactUtilityTest.sendEmailNotificationTest",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, shatrughna94.ContactTriggerVersion1: execution of BeforeInsert\n\ncaused by: line 8, column 40: Method does not exist or incorrect signature: void preventDuplicateContact(Map<Id,Contact>) from the type shatrughna94.ContactTriggerHelperV1: []",
+        "exceptionStackTrace": "Class.shatrughna94.contactUtilityTest.contactTestData: line 15, column 1",
+        "className": "shatrughna94",
+        "compileProblem": "",
+        "lineNumber": 15,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+53.0 APEX_CODE,FINEST;APEX_PROFILING,NONE;CALLOUT,NONE;DB,NONE;NBA,NONE;SYSTEM,DEBUG;VALIDATION,NONE;VISUALFORCE,NONE;WAVE,NONE;WORKFLOW,NONE
+17:07:02.0 (160316)|USER_INFO|[EXTERNAL]|0052v00000gO34I|shatrughna@lightning.com|(GMT+05:30) India Standard Time (Asia/Colombo)|GMT+05:30
+17:07:02.0 (220821)|EXECUTION_STARTED
+17:07:02.0 (228457)|CODE_UNIT_STARTED|[EXTERNAL]|apex://shatrughna94.ContactAuraController/ACTION$getContactData
+17:07:02.0 (11655974)|CODE_UNIT_STARTED|[EXTERNAL]|01p2v00000TtgAK|shatrughna94.ContactAuraController.getContactData(Integer, Integer, String)
+17:07:02.0 (11869869)|HEAP_ALLOCATE|[79]|Bytes:3
+17:07:02.0 (11951317)|HEAP_ALLOCATE|[84]|Bytes:152
+17:07:02.0 (11985157)|HEAP_ALLOCATE|[399]|Bytes:408
+17:07:02.0 (12009847)|HEAP_ALLOCATE|[412]|Bytes:408
+17:07:02.0 (12032721)|HEAP_ALLOCATE|[520]|Bytes:48
+17:07:02.0 (12071050)|HEAP_ALLOCATE|[139]|Bytes:6
+17:07:02.0 (12144481)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:23
+17:07:02.0 (12155977)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+17:07:02.0 (12164762)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+17:07:02.0 (12184304)|METHOD_ENTRY|[1]|01p2v00000TtgAK|shatrughna94.ContactAuraController.ContactAuraController()
+17:07:02.0 (12196622)|STATEMENT_EXECUTE|[1]
+17:07:02.0 (12206646)|STATEMENT_EXECUTE|[1]
+17:07:02.0 (12209353)|STATEMENT_EXECUTE|[28]
+17:07:02.0 (12217454)|METHOD_EXIT|[1]|shatrughna94.ContactAuraController
+17:07:02.0 (12231584)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:07:02.0 (12239228)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+17:07:02.0 (12244259)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+17:07:02.0 (12262792)|VARIABLE_SCOPE_BEGIN|[4]|pageNumber|Integer|false|false
+17:07:02.0 (12331941)|VARIABLE_ASSIGNMENT|[4]|pageNumber|1
+17:07:02.0 (12343792)|VARIABLE_SCOPE_BEGIN|[4]|pageSize|Integer|false|false
+17:07:02.0 (12363366)|VARIABLE_ASSIGNMENT|[4]|pageSize|10
+17:07:02.0 (12373964)|VARIABLE_SCOPE_BEGIN|[4]|getName|String|false|false
+17:07:02.0 (12397396)|VARIABLE_ASSIGNMENT|[4]|getName|"Account"
+17:07:02.0 (12415964)|STATEMENT_EXECUTE|[4]
+17:07:02.0 (12418503)|STATEMENT_EXECUTE|[5]
+17:07:02.0 (12424269)|HEAP_ALLOCATE|[5]|Bytes:14
+17:07:02.0 (12450759)|HEAP_ALLOCATE|[5]|Bytes:21
+17:07:02.0 (12526227)|HEAP_ALLOCATE|[52]|Bytes:5
+17:07:02.0 (12562648)|HEAP_ALLOCATE|[58]|Bytes:5
+17:07:02.0 (12578244)|HEAP_ALLOCATE|[66]|Bytes:7
+17:07:02.0 (12679873)|USER_DEBUG|[5]|DEBUG|objectType--->Account
+17:07:02.0 (12701702)|STATEMENT_EXECUTE|[7]
+17:07:02.0 (12714289)|VARIABLE_SCOPE_BEGIN|[7]|offset|Integer|false|false
+17:07:02.0 (12734522)|HEAP_ALLOCATE|[7]|Bytes:4
+17:07:02.0 (12746981)|VARIABLE_ASSIGNMENT|[7]|offset|0
+17:07:02.0 (12757596)|STATEMENT_EXECUTE|[8]
+17:07:02.0 (12762245)|VARIABLE_SCOPE_BEGIN|[8]|str|String|false|false
+17:07:02.0 (12782452)|VARIABLE_ASSIGNMENT|[8]|str|"Account"
+17:07:02.0 (12791396)|STATEMENT_EXECUTE|[11]
+17:07:02.0 (12797465)|HEAP_ALLOCATE|[11]|Bytes:23
+17:07:02.0 (12875396)|HEAP_ALLOCATE|[11]|Bytes:4
+17:07:02.0 (13350362)|EXCEPTION_THROWN|[11]|System.QueryException: sObject type 'str' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names.
+17:07:02.0 (13510036)|HEAP_ALLOCATE|[11]|Bytes:212
+17:07:02.0 (13726462)|FATAL_ERROR|System.QueryException: sObject type 'str' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names.
+
+Class.shatrughna94.ContactAuraController.getContactData: line 11, column 1
+17:07:02.0 (13764916)|FATAL_ERROR|System.QueryException: sObject type 'str' is not supported. If you are attempting to use a custom object, be sure to append the '__c' after the entity name. Please reference your WSDL or the describe call for the appropriate names.
+
+Class.shatrughna94.ContactAuraController.getContactData: line 11, column 1
+17:07:02.0 (13809806)|CODE_UNIT_FINISHED|shatrughna94.ContactAuraController.getContactData(Integer, Integer, String)
+17:07:02.0 (14224023)|CODE_UNIT_FINISHED|apex://shatrughna94.ContactAuraController/ACTION$getContactData
+17:07:02.0 (14238716)|EXECUTION_FINISHED

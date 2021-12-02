@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Dec 02 2021 9:39:03 PM",
+    "testExecutionTimeInMs": 11,
+    "testTotalTimeInMs": 11,
+    "commandTimeInMs": 483,
+    "hostname": "https://shatrughna94-dev-ed.my.salesforce.com",
+    "orgId": "00D2v000002jCXgEAM",
+    "username": "shatrughna@lightning.com",
+    "testRunId": "7072v0000I8nuzs",
+    "userId": "0052v00000gO34IAAS"
+  },
+  "tests": [
+    {
+      "id": "07M2v00000Ad3lXEAR",
+      "queueItemId": "7092v000000faR7AAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7072v0000I8nuzsAQA",
+      "methodName": "sendEmailNotificationTest",
+      "outcome": "Pass",
+      "apexLogId": "07L2v00005dF25LEAS",
+      "apexClass": {
+        "id": "01p2v00000TtlusAAB",
+        "name": "contactUtilityTest",
+        "namespacePrefix": "shatrughna94",
+        "fullName": "shatrughna94__contactUtilityTest"
+      },
+      "runTime": 11,
+      "testTimestamp": "2021-12-02T16:09:05.000+0000",
+      "fullName": "shatrughna94__contactUtilityTest.sendEmailNotificationTest"
+    }
+  ]
+}

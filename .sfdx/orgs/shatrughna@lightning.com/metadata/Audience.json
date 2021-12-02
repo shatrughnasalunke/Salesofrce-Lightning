@@ -1,0 +1,41 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052v00000gO34IAAS",
+      "createdByName": "Shatrughna Salunke",
+      "createdDate": "2021-06-29T02:31:12.000Z",
+      "fileName": "audience/Default2.audience",
+      "fullName": "Default2",
+      "id": "6Au2v0000004LZWCA2",
+      "lastModifiedById": "0052v00000gO34IAAS",
+      "lastModifiedByName": "Shatrughna Salunke",
+      "lastModifiedDate": "2021-06-29T02:31:12.000Z",
+      "type": "Audience"
+    },
+    {
+      "createdById": "0052v00000gO34IAAS",
+      "createdByName": "Shatrughna Salunke",
+      "createdDate": "2020-01-22T04:54:58.000Z",
+      "fileName": "audience/Default1.audience",
+      "fullName": "Default1",
+      "id": "6Au2v000000PJXsCAO",
+      "lastModifiedById": "0052v00000gO34IAAS",
+      "lastModifiedByName": "Shatrughna Salunke",
+      "lastModifiedDate": "2020-01-22T04:54:58.000Z",
+      "type": "Audience"
+    },
+    {
+      "createdById": "0052v00000gO34IAAS",
+      "createdByName": "Shatrughna Salunke",
+      "createdDate": "2020-01-22T04:53:02.000Z",
+      "fileName": "audience/Default.audience",
+      "fullName": "Default",
+      "id": "6Au2v000000PJXnCAO",
+      "lastModifiedById": "0052v00000gO34IAAS",
+      "lastModifiedByName": "Shatrughna Salunke",
+      "lastModifiedDate": "2020-01-22T04:53:02.000Z",
+      "type": "Audience"
+    }
+  ]
+}

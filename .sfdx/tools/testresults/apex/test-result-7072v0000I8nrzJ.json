@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Dec 02 2021 9:18:48 PM",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 767,
+    "hostname": "https://shatrughna94-dev-ed.my.salesforce.com",
+    "orgId": "00D2v000002jCXgEAM",
+    "username": "shatrughna@lightning.com",
+    "testRunId": "7072v0000I8nrzJ",
+    "userId": "0052v00000gO34IAAS"
+  },
+  "tests": [
+    {
+      "id": "07M2v00000Ad3l8EAB",
+      "queueItemId": "7092v000000faQiAAI",
+      "stackTrace": "Class.shatrughna94.contactUtilityTest.contactTestData: line 15, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, shatrughna94.ContactTriggerVersion1: execution of BeforeInsert\n\ncaused by: System.NullPointerException: Attempt to de-reference a null object\n\nClass.shatrughna94.ContactTriggerHelperV1.preventDuplicateContact: line 74, column 1\nTrigger.shatrughna94.ContactTriggerVersion1: line 8, column 1: []",
+      "asyncApexJobId": "7072v0000I8nrzJAQQ",
+      "methodName": "sendEmailNotificationTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p2v00000TtlusAAB",
+        "name": "contactUtilityTest",
+        "namespacePrefix": "shatrughna94",
+        "fullName": "shatrughna94__contactUtilityTest"
+      },
+      "runTime": 0,
+      "testTimestamp": "2021-12-02T15:48:49.000+0000",
+      "fullName": "shatrughna94__contactUtilityTest.sendEmailNotificationTest",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, shatrughna94.ContactTriggerVersion1: execution of BeforeInsert\n\ncaused by: System.NullPointerException: Attempt to de-reference a null object\n\nClass.shatrughna94.ContactTriggerHelperV1.preventDuplicateContact: line 74, column 1\nTrigger.shatrughna94.ContactTriggerVersion1: line 8, column 1: []",
+        "exceptionStackTrace": "Class.shatrughna94.contactUtilityTest.contactTestData: line 15, column 1",
+        "className": "shatrughna94",
+        "compileProblem": "",
+        "lineNumber": 15,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

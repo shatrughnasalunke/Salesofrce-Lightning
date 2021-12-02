@@ -1,0 +1,394 @@
+52.0 APEX_CODE,FINEST;APEX_PROFILING,NONE;CALLOUT,NONE;DB,NONE;NBA,NONE;SYSTEM,DEBUG;VALIDATION,NONE;VISUALFORCE,NONE;WAVE,NONE;WORKFLOW,NONE
+20:10:06.3 (3725340)|USER_INFO|[EXTERNAL]|0052v00000gO34I|shatrughna@lightning.com|(GMT+05:30) India Standard Time (Asia/Colombo)|GMT+05:30
+20:10:06.3 (3828147)|EXECUTION_STARTED
+20:10:06.3 (3834714)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+20:10:06.3 (3869461)|CODE_UNIT_STARTED|[EXTERNAL]|01q2v0000014dcx|shatrughna94.ContactTriggerVersion1 on Contact trigger event BeforeUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.3 (3933321)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (4027155)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (4650528)|HEAP_ALLOCATE|[79]|Bytes:3
+20:10:06.3 (4728290)|HEAP_ALLOCATE|[84]|Bytes:152
+20:10:06.3 (4747478)|HEAP_ALLOCATE|[399]|Bytes:408
+20:10:06.3 (4764665)|HEAP_ALLOCATE|[412]|Bytes:408
+20:10:06.3 (4778514)|HEAP_ALLOCATE|[520]|Bytes:48
+20:10:06.3 (4817689)|HEAP_ALLOCATE|[139]|Bytes:6
+20:10:06.3 (4873540)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (4915435)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (4982325)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (5233696)|VARIABLE_ASSIGNMENT|[1]|this|{}|0xf3b5ed9
+20:10:06.3 (5298829)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (5398371)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (5426618)|VARIABLE_ASSIGNMENT|[1]|this|{}|0xf3b5ed9
+20:10:06.3 (5442216)|STATEMENT_EXECUTE|[1]
+20:10:06.3 (5444517)|STATEMENT_EXECUTE|[4]
+20:10:06.3 (5508437)|HEAP_ALLOCATE|[52]|Bytes:5
+20:10:06.3 (5544563)|HEAP_ALLOCATE|[58]|Bytes:5
+20:10:06.3 (5557820)|HEAP_ALLOCATE|[66]|Bytes:7
+20:10:06.3 (5814579)|HEAP_ALLOCATE|[6]|Bytes:12
+20:10:06.3 (6025336)|STATEMENT_EXECUTE|[10]
+20:10:06.3 (6028471)|STATEMENT_EXECUTE|[11]
+20:10:06.3 (6033255)|HEAP_ALLOCATE|[11]|Bytes:13
+20:10:06.3 (6080696)|USER_DEBUG|[11]|DEBUG|Before Update
+20:10:06.3 (6093994)|STATEMENT_EXECUTE|[12]
+20:10:06.3 (7911868)|HEAP_ALLOCATE|[12]|Bytes:15
+20:10:06.3 (7926365)|HEAP_ALLOCATE|[12]|Bytes:5
+20:10:06.3 (7974450)|METHOD_ENTRY|[1]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.ContactTriggerHelperV1()
+20:10:06.3 (7999813)|STATEMENT_EXECUTE|[1]
+20:10:06.3 (8007746)|STATEMENT_EXECUTE|[1]
+20:10:06.3 (9035966)|SYSTEM_MODE_ENTER|false
+20:10:06.3 (9058574)|HEAP_ALLOCATE|[12]|Bytes:5
+20:10:06.3 (9073958)|SYSTEM_MODE_EXIT|false
+20:10:06.3 (9111489)|METHOD_EXIT|[1]|shatrughna94.ContactTriggerHelperV1
+20:10:06.3 (9150455)|METHOD_ENTRY|[12]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.preventDuplicateContact(Map<Id,Contact>, Map<Id,Contact>)
+20:10:06.3 (9192866)|VARIABLE_SCOPE_BEGIN|[68]|newValues|Map<Id,Contact>|true|false
+20:10:06.3 (12510935)|VARIABLE_ASSIGNMENT|[68]|newValues|{"0032v00003ny7OPAAY":{"LastModifiedDate":"2021-11-27T11:24:02.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:06.950Z","SystemModstamp":"2021-11-27T11:24:02.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7aAAAQ":{"LastModifiedDate":"2021-11-27T11:47:19.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:06.951Z","SystemModstamp":"2021-11-27T11:47:19.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7k9AAA":{"LastModifiedDate":"2021-11-27T11:27:44.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Pallavi","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Java Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:06.951Z","Salutation":"Ms.","SystemModstamp":"2021-11-27T11:27:44.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T11:17:13.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7k9AAA","LastName":"Baske","LastModifiedById":"0052v00000gO34IAAS"}}|0x3784c54e
+20:10:06.3 (12561351)|VARIABLE_SCOPE_BEGIN|[68]|oldValues|Map<Id,Contact>|true|false
+20:10:06.3 (13901768)|VARIABLE_ASSIGNMENT|[68]|oldValues|{"0032v00003ny7OPAAY":{"LastModifiedDate":"2021-11-27T11:24:02.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:06.952Z","SystemModstamp":"2021-11-27T11:24:02.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7aAAAQ":{"LastModifiedDate":"2021-11-27T11:47:19.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:06.952Z","SystemModstamp":"2021-11-27T11:47:19.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7k9AAA":{"LastModifiedDate":"2021-11-27T11:27:44.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Pallavi","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Java Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:06.953Z","Salutation":"Ms.","SystemModstamp":"2021-11-27T11:27:44.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T11:17:13.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7k9AAA","LastName":"Baske","LastModifiedById":"0052v00000gO34IAAS"}}|0x7b055b62
+20:10:06.3 (13947534)|SYSTEM_MODE_ENTER|false
+20:10:06.3 (13958991)|HEAP_ALLOCATE|[69]|Bytes:5
+20:10:06.3 (13968227)|STATEMENT_EXECUTE|[68]
+20:10:06.3 (13970347)|STATEMENT_EXECUTE|[69]
+20:10:06.3 (13974579)|HEAP_ALLOCATE|[69]|Bytes:14
+20:10:06.3 (15554913)|HEAP_ALLOCATE|[69]|Bytes:4711
+20:10:06.3 (15591954)|HEAP_ALLOCATE|[69]|Bytes:4725
+20:10:06.3 (15610075)|USER_DEBUG|[69]|DEBUG|Old Values--->{0032v00003ny7OPAAY=Contact:{Id=0032v00003ny7OPAAY, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Punam, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=9373735419, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Consultant, Department=Erupoe, AssistantName=null, LeadSource=null, Birthdate=2021-12-09 00:00:00, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:31:51, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:24:02, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:24:02, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=false, shatrughna94__Date__c=2021-11-27 14:40:06, shatrughna94__Active__c=false}, 0032v00003ny7aAAAQ=Contact:{Id=0032v00003ny7aAAAQ, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Bharat, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=8805936757, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Architecture, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:32:40, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:47:19, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:47:19, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=false, shatrughna94__Date__c=2021-11-27 14:40:06, shatrughna94__Active__c=false}, 0032v00003ny7k9AAA=Contact:{Id=0032v00003ny7k9AAA, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Ms., FirstName=Pallavi, LastName=Baske, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=null, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Java Developer, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 11:17:13, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:27:44, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:27:44, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=false, shatrughna94__Date__c=2021-11-27 14:40:06, shatrughna94__Active__c=false}}
+20:10:06.3 (15666516)|STATEMENT_EXECUTE|[70]
+20:10:06.3 (15672589)|HEAP_ALLOCATE|[70]|Bytes:14
+20:10:06.3 (17126849)|HEAP_ALLOCATE|[70]|Bytes:4708
+20:10:06.3 (17156895)|HEAP_ALLOCATE|[70]|Bytes:4722
+20:10:06.3 (17172111)|USER_DEBUG|[70]|DEBUG|New Values--->{0032v00003ny7OPAAY=Contact:{Id=0032v00003ny7OPAAY, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Punam, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=9373735419, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Consultant, Department=Erupoe, AssistantName=null, LeadSource=null, Birthdate=2021-12-09 00:00:00, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:31:51, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:24:02, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:24:02, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=true, shatrughna94__Date__c=2021-11-27 14:40:06, shatrughna94__Active__c=false}, 0032v00003ny7aAAAQ=Contact:{Id=0032v00003ny7aAAAQ, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Bharat, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=8805936757, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Architecture, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:32:40, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:47:19, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:47:19, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=true, shatrughna94__Date__c=2021-11-27 14:40:06, shatrughna94__Active__c=false}, 0032v00003ny7k9AAA=Contact:{Id=0032v00003ny7k9AAA, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Ms., FirstName=Pallavi, LastName=Baske, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=null, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Java Developer, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 11:17:13, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:27:44, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:27:44, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=true, shatrughna94__Date__c=2021-11-27 14:40:06, shatrughna94__Active__c=false}}
+20:10:06.3 (17227876)|SYSTEM_MODE_EXIT|false
+20:10:06.3 (17239588)|METHOD_EXIT|[12]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.preventDuplicateContact(Map<Id,Contact>, Map<Id,Contact>)
+20:10:06.3 (20007819)|CODE_UNIT_FINISHED|shatrughna94.ContactTriggerVersion1 on Contact trigger event BeforeUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.84 (84724446)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (116662502)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (126107093)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (126214708)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (126273811)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (126952744)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (127225558)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (128287828)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (128348833)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (130811932)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (137685339)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (145267144)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (146289563)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (147418492)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (148377930)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (148622280)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (149287553)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (149351485)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (149602553)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (149868889)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (150221505)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (150506742)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (150637596)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (151245940)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (151279027)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (152147819)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (153637853)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (158823888)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (159547625)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (173263370)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (173425484)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (174132403)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (174164405)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (175200669)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (177201350)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (177992581)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (178791059)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (185555275)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.84 (186338510)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.3 (265902817)|CODE_UNIT_STARTED|[EXTERNAL]|01q2v0000014dcx|shatrughna94.ContactTriggerVersion1 on Contact trigger event AfterUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.3 (265970575)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (265989956)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (266047348)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (266069013)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (266115825)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5b3d3471
+20:10:06.3 (266145427)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (266154487)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (266173387)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5b3d3471
+20:10:06.3 (266186349)|STATEMENT_EXECUTE|[1]
+20:10:06.3 (266189049)|STATEMENT_EXECUTE|[4]
+20:10:06.3 (266248835)|HEAP_ALLOCATE|[6]|Bytes:12
+20:10:06.3 (266399584)|STATEMENT_EXECUTE|[18]
+20:10:06.3 (266403107)|STATEMENT_EXECUTE|[19]
+20:10:06.3 (266447524)|METHOD_ENTRY|[19]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.avoidMultiplePrimaryContact(Map<Id,Contact>)
+20:10:06.3 (266526596)|VARIABLE_SCOPE_BEGIN|[44]|mapOfNewContact|Map<Id,Contact>|true|false
+20:10:06.3 (268530370)|VARIABLE_ASSIGNMENT|[44]|mapOfNewContact|{"0032v00003ny7OPAAY":{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.206Z","SystemModstamp":"2021-11-27T14:40:06.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7aAAAQ":{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.207Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7k9AAA":{"LastModifiedDate":"2021-11-27T14:40:06.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Pallavi","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Java Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.207Z","Salutation":"Ms.","SystemModstamp":"2021-11-27T14:40:07.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T11:17:13.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7k9AAA","LastName":"Baske","LastModifiedById":"0052v00000gO34IAAS"}}|0x8cb4dd2
+20:10:06.3 (269163657)|SYSTEM_MODE_ENTER|false
+20:10:06.3 (269182539)|HEAP_ALLOCATE|[45]|Bytes:5
+20:10:06.3 (269193400)|STATEMENT_EXECUTE|[44]
+20:10:06.3 (269195647)|STATEMENT_EXECUTE|[45]
+20:10:06.3 (269203741)|VARIABLE_SCOPE_BEGIN|[45]|currentId|String|false|false
+20:10:06.3 (269221939)|VARIABLE_ASSIGNMENT|[45]|currentId|""
+20:10:06.3 (269230186)|STATEMENT_EXECUTE|[46]
+20:10:06.3 (269250925)|HEAP_ALLOCATE|[46]|Bytes:4
+20:10:06.3 (269317479)|VARIABLE_SCOPE_BEGIN|[46]|accountIds|Set<Id>|true|false
+20:10:06.3 (269361524)|VARIABLE_ASSIGNMENT|[46]|accountIds|[]|0x17bf0830
+20:10:06.3 (269447397)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (269468855)|HEAP_ALLOCATE|[47]|Bytes:16
+20:10:06.3 (269511631)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (269569007)|VARIABLE_SCOPE_BEGIN|[47]|getnewContactlist|Contact|true|false
+20:10:06.3 (270035394)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.206Z","SystemModstamp":"2021-11-27T14:40:06.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}|0x29a98e17
+20:10:06.3 (270059145)|STATEMENT_EXECUTE|[47]
+20:10:06.3 (270085394)|STATEMENT_EXECUTE|[48]
+20:10:06.3 (270087728)|STATEMENT_EXECUTE|[50]
+20:10:06.3 (270144976)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (270160878)|STATEMENT_EXECUTE|[51]
+20:10:06.3 (270192577)|HEAP_ALLOCATE|[51]|Bytes:18
+20:10:06.3 (270210722)|VARIABLE_ASSIGNMENT|[51]|currentId|"0032v00003ny7OPAAY"
+20:10:06.3 (270228049)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (270246269)|VARIABLE_SCOPE_BEGIN|[47]|getnewContactlist|Contact|true|false
+20:10:06.3 (270684520)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.207Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}|0x7bdef32d
+20:10:06.3 (270705421)|STATEMENT_EXECUTE|[47]
+20:10:06.3 (270716041)|STATEMENT_EXECUTE|[48]
+20:10:06.3 (270717990)|STATEMENT_EXECUTE|[50]
+20:10:06.3 (270730560)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (270743475)|STATEMENT_EXECUTE|[51]
+20:10:06.3 (270751146)|HEAP_ALLOCATE|[51]|Bytes:18
+20:10:06.3 (270766027)|VARIABLE_ASSIGNMENT|[51]|currentId|"0032v00003ny7aAAAQ"
+20:10:06.3 (270782586)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (270807459)|VARIABLE_SCOPE_BEGIN|[47]|getnewContactlist|Contact|true|false
+20:10:06.3 (271261861)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|{"LastModifiedDate":"2021-11-27T14:40:06.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Pallavi","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Java Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.207Z","Salutation":"Ms.","SystemModstamp":"2021-11-27T14:40:07.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T11:17:13.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7k9AAA","LastName":"Baske","LastModifiedById":"0052v00000gO34IAAS"}|0x14cf9aee
+20:10:06.3 (271283014)|STATEMENT_EXECUTE|[47]
+20:10:06.3 (271292676)|STATEMENT_EXECUTE|[48]
+20:10:06.3 (271294546)|STATEMENT_EXECUTE|[50]
+20:10:06.3 (271306671)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (271319074)|STATEMENT_EXECUTE|[51]
+20:10:06.3 (271326625)|HEAP_ALLOCATE|[51]|Bytes:18
+20:10:06.3 (271340920)|VARIABLE_ASSIGNMENT|[51]|currentId|"0032v00003ny7k9AAA"
+20:10:06.3 (271355291)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (271371020)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|null|
+20:10:06.3 (271378947)|STATEMENT_EXECUTE|[54]
+20:10:06.3 (271393920)|HEAP_ALLOCATE|[54]|Bytes:4
+20:10:06.3 (271424517)|VARIABLE_SCOPE_BEGIN|[54]|listOfContact|List<Contact>|true|false
+20:10:06.3 (271438792)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (271452727)|VARIABLE_ASSIGNMENT|[54]|listOfContact|[]|0x28203305
+20:10:06.3 (271469893)|HEAP_ALLOCATE|[55]|Bytes:131
+20:10:06.3 (271493064)|HEAP_ALLOCATE|[55]|Bytes:4
+20:10:06.3 (271503637)|HEAP_ALLOCATE|[55]|Bytes:7
+20:10:06.3 (282559585)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+20:10:06.3 (282775558)|HEAP_ALLOCATE|[55]|Bytes:54
+20:10:06.3 (282792259)|HEAP_ALLOCATE|[55]|Bytes:8
+20:10:06.3 (282810973)|SYSTEM_METHOD_ENTRY|[7]|QueryLocatorIterator.QueryLocatorIterator()
+20:10:06.3 (282816608)|STATEMENT_EXECUTE|[7]
+20:10:06.3 (282828753)|SYSTEM_METHOD_EXIT|[7]|QueryLocatorIterator
+20:10:06.3 (282840960)|HEAP_ALLOCATE|[55]|Bytes:28
+20:10:06.3 (282882526)|HEAP_ALLOCATE|[55]|Bytes:20
+20:10:06.3 (282899410)|HEAP_ALLOCATE|[55]|Bytes:8
+20:10:06.3 (282904981)|HEAP_ALLOCATE|[55]|Bytes:8
+20:10:06.3 (282911794)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+20:10:06.3 (282970869)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x79053854
+20:10:06.3 (282982374)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+20:10:06.3 (283026462)|VARIABLE_ASSIGNMENT|[15]|values|[{"Id":"0032v00003ny7OPAAY","Name":"Punam Salunke","shatrughna94__PrimarContact__c":true},{"Id":"0032v00003ny7a9AAA","Name":"Shatrughna Salunke","shatrughna94__PrimarContact__c":true},{"Id":"0032v00003ny7aAAAQ","Name":"Bharat Salunke","shatrughna94__PrimarContact__c":true},{"Id":"0032v00003ny7k9AAA","Name":"Pallavi Baske","shatrughna94__PrimarContact__c":true}]|0x6b08ca2a
+20:10:06.3 (283039343)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+20:10:06.3 (283078633)|VARIABLE_ASSIGNMENT|[15]|ql|{"query":"SELECT Id, Name, sha (111 more) ..."}|0x5c1661a8
+20:10:06.3 (283088035)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+20:10:06.3 (283101045)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|4
+20:10:06.3 (283108627)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+20:10:06.3 (283120129)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|49996
+20:10:06.3 (283191316)|HEAP_ALLOCATE|[55]|Bytes:28
+20:10:06.3 (283216978)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (283276143)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (283287071)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (283381859)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (283394471)|VARIABLE_SCOPE_BEGIN|[55]|getPrimaryContact|Contact|true|false
+20:10:06.3 (283419169)|VARIABLE_ASSIGNMENT|[55]|getPrimaryContact|{"Id":"0032v00003ny7OPAAY","Name":"Punam Salunke","shatrughna94__PrimarContact__c":true}|0x2fdd2a65
+20:10:06.3 (283430071)|STATEMENT_EXECUTE|[56]
+20:10:06.3 (283440221)|HEAP_ALLOCATE|[58]|Bytes:4
+20:10:06.3 (283520969)|STATEMENT_EXECUTE|[58]
+20:10:06.3 (283523573)|STATEMENT_EXECUTE|[59]
+20:10:06.3 (283638976)|VARIABLE_ASSIGNMENT|[59]|this.shatrughna94__PrimarContact__c|false|0x2fdd2a65
+20:10:06.3 (283651126)|STATEMENT_EXECUTE|[60]
+20:10:06.3 (283688427)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (283706294)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (283731611)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (283739302)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (283804618)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (283814173)|VARIABLE_SCOPE_BEGIN|[55]|getPrimaryContact|Contact|true|false
+20:10:06.3 (283839476)|VARIABLE_ASSIGNMENT|[55]|getPrimaryContact|{"Id":"0032v00003ny7a9AAA","Name":"Shatrughna Salunke","shatrughna94__PrimarContact__c":true}|0x523eac1b
+20:10:06.3 (283847377)|STATEMENT_EXECUTE|[56]
+20:10:06.3 (283854005)|HEAP_ALLOCATE|[58]|Bytes:4
+20:10:06.3 (283883510)|STATEMENT_EXECUTE|[58]
+20:10:06.3 (283885753)|STATEMENT_EXECUTE|[59]
+20:10:06.3 (283932339)|VARIABLE_ASSIGNMENT|[59]|this.shatrughna94__PrimarContact__c|false|0x523eac1b
+20:10:06.3 (283944429)|STATEMENT_EXECUTE|[60]
+20:10:06.3 (283954299)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (283968168)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (283991118)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (283996858)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (284052920)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (284060793)|VARIABLE_SCOPE_BEGIN|[55]|getPrimaryContact|Contact|true|false
+20:10:06.3 (284084105)|VARIABLE_ASSIGNMENT|[55]|getPrimaryContact|{"Id":"0032v00003ny7aAAAQ","Name":"Bharat Salunke","shatrughna94__PrimarContact__c":true}|0x3d4a8cd5
+20:10:06.3 (284093865)|STATEMENT_EXECUTE|[56]
+20:10:06.3 (284099106)|HEAP_ALLOCATE|[58]|Bytes:4
+20:10:06.3 (284127259)|STATEMENT_EXECUTE|[58]
+20:10:06.3 (284129452)|STATEMENT_EXECUTE|[59]
+20:10:06.3 (284167994)|VARIABLE_ASSIGNMENT|[59]|this.shatrughna94__PrimarContact__c|false|0x3d4a8cd5
+20:10:06.3 (284177577)|STATEMENT_EXECUTE|[60]
+20:10:06.3 (284185983)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (284198908)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (284221713)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (284228778)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (284282847)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.next()
+20:10:06.3 (284292231)|VARIABLE_SCOPE_BEGIN|[55]|getPrimaryContact|Contact|true|false
+20:10:06.3 (284314884)|VARIABLE_ASSIGNMENT|[55]|getPrimaryContact|{"Id":"0032v00003ny7k9AAA","Name":"Pallavi Baske","shatrughna94__PrimarContact__c":true}|0x7b82171b
+20:10:06.3 (284325096)|STATEMENT_EXECUTE|[56]
+20:10:06.3 (284329943)|HEAP_ALLOCATE|[58]|Bytes:4
+20:10:06.3 (284356306)|STATEMENT_EXECUTE|[58]
+20:10:06.3 (284362772)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (284376763)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (284386973)|VARIABLE_ASSIGNMENT|[55]|getPrimaryContact|null|
+20:10:06.3 (284431744)|STATEMENT_EXECUTE|[63]
+20:10:06.3 (284434165)|STATEMENT_EXECUTE|[64]
+20:10:06.3 (284532407)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (299701813)|CODE_UNIT_STARTED|[EXTERNAL]|01q2v0000014dcx|shatrughna94.ContactTriggerVersion1 on Contact trigger event BeforeUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.3 (299769509)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (299826962)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (299895282)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (299910831)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (299956580)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x21b23b58
+20:10:06.3 (299989260)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (299996957)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (300016223)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x21b23b58
+20:10:06.3 (300029541)|STATEMENT_EXECUTE|[1]
+20:10:06.3 (300032024)|STATEMENT_EXECUTE|[4]
+20:10:06.3 (300097625)|HEAP_ALLOCATE|[6]|Bytes:12
+20:10:06.3 (300171720)|STATEMENT_EXECUTE|[10]
+20:10:06.3 (300174273)|STATEMENT_EXECUTE|[11]
+20:10:06.3 (300186244)|USER_DEBUG|[11]|DEBUG|Before Update
+20:10:06.3 (300197724)|STATEMENT_EXECUTE|[12]
+20:10:06.3 (300245034)|METHOD_ENTRY|[12]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.preventDuplicateContact(Map<Id,Contact>, Map<Id,Contact>)
+20:10:06.3 (300256031)|VARIABLE_SCOPE_BEGIN|[68]|newValues|Map<Id,Contact>|true|false
+20:10:06.3 (301900000)|VARIABLE_ASSIGNMENT|[68]|newValues|{"0032v00003ny7OPAAY":{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.240Z","SystemModstamp":"2021-11-27T14:40:06.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7a9AAA":{"LastModifiedDate":"2021-11-27T11:47:18.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Shatrughna","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Salesforce Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.240Z","Salutation":"Mr.","SystemModstamp":"2021-11-27T11:47:18.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T10:30:36.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7a9AAA","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7aAAAQ":{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.241Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}}|0x292b9d74
+20:10:06.3 (301938821)|VARIABLE_SCOPE_BEGIN|[68]|oldValues|Map<Id,Contact>|true|false
+20:10:06.3 (303395580)|VARIABLE_ASSIGNMENT|[68]|oldValues|{"0032v00003ny7OPAAY":{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.241Z","SystemModstamp":"2021-11-27T14:40:06.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7a9AAA":{"LastModifiedDate":"2021-11-27T11:47:18.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Shatrughna","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Salesforce Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.242Z","Salutation":"Mr.","SystemModstamp":"2021-11-27T11:47:18.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T10:30:36.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7a9AAA","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7aAAAQ":{"LastModifiedDate":"2021-11-27T14:40:06.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.242Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":true,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}}|0x14d8ee48
+20:10:06.3 (303444199)|HEAP_ALLOCATE|[69]|Bytes:5
+20:10:06.3 (303454671)|STATEMENT_EXECUTE|[68]
+20:10:06.3 (303456822)|STATEMENT_EXECUTE|[69]
+20:10:06.3 (304947545)|HEAP_ALLOCATE|[69]|Bytes:4719
+20:10:06.3 (304976249)|HEAP_ALLOCATE|[69]|Bytes:4733
+20:10:06.3 (304989628)|USER_DEBUG|[69]|DEBUG|Old Values--->{0032v00003ny7OPAAY=Contact:{Id=0032v00003ny7OPAAY, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Punam, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=9373735419, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Consultant, Department=Erupoe, AssistantName=null, LeadSource=null, Birthdate=2021-12-09 00:00:00, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:31:51, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 14:40:06, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 14:40:06, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=true, shatrughna94__Date__c=2021-11-27 14:40:07, shatrughna94__Active__c=false}, 0032v00003ny7a9AAA=Contact:{Id=0032v00003ny7a9AAA, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mr., FirstName=Shatrughna, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=null, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Developer, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:30:36, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:47:18, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:47:18, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=true, shatrughna94__Date__c=2021-11-27 14:40:07, shatrughna94__Active__c=false}, 0032v00003ny7aAAAQ=Contact:{Id=0032v00003ny7aAAAQ, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Bharat, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=8805936757, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Architecture, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:32:40, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 14:40:06, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 14:40:07, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=true, shatrughna94__Date__c=2021-11-27 14:40:07, shatrughna94__Active__c=false}}
+20:10:06.3 (305047343)|STATEMENT_EXECUTE|[70]
+20:10:06.3 (306506740)|HEAP_ALLOCATE|[70]|Bytes:4722
+20:10:06.3 (306533812)|HEAP_ALLOCATE|[70]|Bytes:4736
+20:10:06.3 (306544616)|USER_DEBUG|[70]|DEBUG|New Values--->{0032v00003ny7OPAAY=Contact:{Id=0032v00003ny7OPAAY, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Punam, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=9373735419, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Consultant, Department=Erupoe, AssistantName=null, LeadSource=null, Birthdate=2021-12-09 00:00:00, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:31:51, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 14:40:06, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 14:40:06, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=false, shatrughna94__Date__c=2021-11-27 14:40:07, shatrughna94__Active__c=false}, 0032v00003ny7a9AAA=Contact:{Id=0032v00003ny7a9AAA, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mr., FirstName=Shatrughna, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=null, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Developer, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:30:36, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 11:47:18, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 11:47:18, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=false, shatrughna94__Date__c=2021-11-27 14:40:07, shatrughna94__Active__c=false}, 0032v00003ny7aAAAQ=Contact:{Id=0032v00003ny7aAAAQ, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003HnIyhAAF, Salutation=Mrs., FirstName=Bharat, LastName=Salunke, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=8805936757, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=Salesforce Architecture, Department=Europe, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 10:32:40, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 14:40:06, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 14:40:07, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=false, shatrughna94__Date__c=2021-11-27 14:40:07, shatrughna94__Active__c=false}}
+20:10:06.3 (306608127)|METHOD_EXIT|[12]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.preventDuplicateContact(Map<Id,Contact>, Map<Id,Contact>)
+20:10:06.3 (308064557)|CODE_UNIT_FINISHED|shatrughna94.ContactTriggerVersion1 on Contact trigger event BeforeUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.3 (309327790)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+20:10:06.3 (309345882)|DUPLICATE_DETECTION_BEGIN
+20:10:06.3 (309417877)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm2v00000GLOtZ|DuplicateRuleName:Standard Contact Duplicate Rule|DmlType:UPDATE
+20:10:06.3 (309482958)|DUPLICATE_DETECTION_END
+20:10:06.3 (309491927)|CODE_UNIT_FINISHED|DuplicateDetector
+20:10:06.337 (337714288)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (338777915)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (339017271)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (339880415)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (339921174)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (340294327)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (340667996)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (341511225)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (342169575)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (342900280)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (343586291)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (343765314)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (344487851)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (344533722)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (344824731)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (345141179)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (345442691)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (346604862)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (346779582)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (347466120)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (347523019)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (347736975)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (347993441)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (348517899)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (348942462)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (349398331)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (349505911)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (349965474)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (350008212)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (350171906)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (350370860)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (350828212)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (351265119)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.337 (352137349)|ENTERING_MANAGED_PKG|amazonconnect
+20:10:06.3 (378830709)|CODE_UNIT_STARTED|[EXTERNAL]|01q2v0000014dcx|shatrughna94.ContactTriggerVersion1 on Contact trigger event AfterUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.3 (378901914)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (378918346)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (378968645)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (378981982)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (379022966)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x6b052e64
+20:10:06.3 (379048659)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (379057177)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+20:10:06.3 (379075586)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x6b052e64
+20:10:06.3 (379085177)|STATEMENT_EXECUTE|[1]
+20:10:06.3 (379087239)|STATEMENT_EXECUTE|[4]
+20:10:06.3 (379136242)|HEAP_ALLOCATE|[6]|Bytes:12
+20:10:06.3 (379229054)|STATEMENT_EXECUTE|[18]
+20:10:06.3 (379231455)|STATEMENT_EXECUTE|[19]
+20:10:06.3 (379262138)|METHOD_ENTRY|[19]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.avoidMultiplePrimaryContact(Map<Id,Contact>)
+20:10:06.3 (379274705)|VARIABLE_SCOPE_BEGIN|[44]|mapOfNewContact|Map<Id,Contact>|true|false
+20:10:06.3 (380965747)|VARIABLE_ASSIGNMENT|[44]|mapOfNewContact|{"0032v00003ny7OPAAY":{"LastModifiedDate":"2021-11-27T14:40:07.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.319Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7a9AAA":{"LastModifiedDate":"2021-11-27T14:40:07.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Shatrughna","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Salesforce Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.319Z","Salutation":"Mr.","SystemModstamp":"2021-11-27T14:40:07.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T10:30:36.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7a9AAA","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"},"0032v00003ny7aAAAQ":{"LastModifiedDate":"2021-11-27T14:40:07.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.320Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}}|0x4dbbb9f0
+20:10:06.3 (381016744)|HEAP_ALLOCATE|[45]|Bytes:5
+20:10:06.3 (381026384)|STATEMENT_EXECUTE|[44]
+20:10:06.3 (381028746)|STATEMENT_EXECUTE|[45]
+20:10:06.3 (381035108)|VARIABLE_SCOPE_BEGIN|[45]|currentId|String|false|false
+20:10:06.3 (381051832)|VARIABLE_ASSIGNMENT|[45]|currentId|""
+20:10:06.3 (381058375)|STATEMENT_EXECUTE|[46]
+20:10:06.3 (381074014)|HEAP_ALLOCATE|[46]|Bytes:4
+20:10:06.3 (381096920)|VARIABLE_SCOPE_BEGIN|[46]|accountIds|Set<Id>|true|false
+20:10:06.3 (381130301)|VARIABLE_ASSIGNMENT|[46]|accountIds|[]|0x17fd10e8
+20:10:06.3 (381162851)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (381178228)|HEAP_ALLOCATE|[47]|Bytes:16
+20:10:06.3 (381212361)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (381234743)|VARIABLE_SCOPE_BEGIN|[47]|getnewContactlist|Contact|true|false
+20:10:06.3 (382358369)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|{"LastModifiedDate":"2021-11-27T14:40:07.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Erupoe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"9373735419","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Punam","HasOptedOutOfEmail":false,"Title":"Salesforce Consultan (1 more) ...","Birthdate":"2021-12-09T00:00:00.000Z","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.319Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:31:51.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7OPAAY","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}|0x8c0ad8a
+20:10:06.3 (382382631)|STATEMENT_EXECUTE|[47]
+20:10:06.3 (382399211)|STATEMENT_EXECUTE|[48]
+20:10:06.3 (382416500)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (382437038)|VARIABLE_SCOPE_BEGIN|[47]|getnewContactlist|Contact|true|false
+20:10:06.3 (382818770)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|{"LastModifiedDate":"2021-11-27T14:40:07.000Z","IsDeleted":false,"AccountId":"0012v00003HnIyhAAF","IsEmailBounced":false,"shatrughna94__Active__c":false,"DoNotCall":false,"FirstName":"Shatrughna","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"Title":"Salesforce Developer","shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.319Z","Salutation":"Mr.","SystemModstamp":"2021-11-27T14:40:07.000Z","Department":"Europe","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T10:30:36.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7a9AAA","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}|0x4a74d4f8
+20:10:06.3 (382840323)|STATEMENT_EXECUTE|[47]
+20:10:06.3 (382849706)|STATEMENT_EXECUTE|[48]
+20:10:06.3 (382861537)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (382880082)|VARIABLE_SCOPE_BEGIN|[47]|getnewContactlist|Contact|true|false
+20:10:06.3 (383244462)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|{"LastModifiedDate":"2021-11-27T14:40:07.000Z","AccountId":"0012v00003HnIyhAAF","DoNotCall":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"Salutation":"Mrs.","Department":"Europe","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","Phone":"8805936757","IsDeleted":false,"IsEmailBounced":false,"shatrughna94__Active__c":false,"FirstName":"Bharat","HasOptedOutOfEmail":false,"Title":"Salesforce Architect (3 more) ...","CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T14:40:07.320Z","SystemModstamp":"2021-11-27T14:40:07.000Z","CleanStatus":"Pending","CreatedDate":"2021-11-27T10:32:40.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny7aAAAQ","LastName":"Salunke","LastModifiedById":"0052v00000gO34IAAS"}|0x5a90807f
+20:10:06.3 (383282584)|STATEMENT_EXECUTE|[47]
+20:10:06.3 (383294507)|STATEMENT_EXECUTE|[48]
+20:10:06.3 (383308767)|HEAP_ALLOCATE|[47]|Bytes:5
+20:10:06.3 (383327325)|VARIABLE_ASSIGNMENT|[47]|getnewContactlist|null|
+20:10:06.3 (383335913)|STATEMENT_EXECUTE|[54]
+20:10:06.3 (383350010)|HEAP_ALLOCATE|[54]|Bytes:4
+20:10:06.3 (383366272)|VARIABLE_SCOPE_BEGIN|[54]|listOfContact|List<Contact>|true|false
+20:10:06.3 (383383114)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:10:06.3 (383396212)|VARIABLE_ASSIGNMENT|[54]|listOfContact|[]|0x2515a195
+20:10:06.3 (383416387)|HEAP_ALLOCATE|[55]|Bytes:4
+20:10:06.3 (386644861)|HEAP_ALLOCATE|[55]|Bytes:28
+20:10:06.3 (386668614)|HEAP_ALLOCATE|[55]|Bytes:8
+20:10:06.3 (386675406)|HEAP_ALLOCATE|[55]|Bytes:8
+20:10:06.3 (386683400)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+20:10:06.3 (386725969)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x3e1fa137
+20:10:06.3 (386735658)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+20:10:06.3 (386750187)|VARIABLE_ASSIGNMENT|[15]|values|null|
+20:10:06.3 (386756743)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+20:10:06.3 (386780533)|VARIABLE_ASSIGNMENT|[15]|ql|{"query":"SELECT Id, Name, sha (111 more) ..."}|0x12dad4ab
+20:10:06.3 (386789457)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+20:10:06.3 (386801949)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|0
+20:10:06.3 (386810287)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+20:10:06.3 (386821610)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|49996
+20:10:06.3 (386889794)|HEAP_ALLOCATE|[55]|Bytes:28
+20:10:06.3 (386925803)|METHOD_ENTRY|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (386946214)|METHOD_EXIT|[55]||Database.QueryLocatorIterator.hasNext()
+20:10:06.3 (386959490)|VARIABLE_ASSIGNMENT|[55]|getPrimaryContact|null|
+20:10:06.3 (386967083)|STATEMENT_EXECUTE|[55]
+20:10:06.3 (386991433)|STATEMENT_EXECUTE|[63]
+20:10:06.3 (387000767)|METHOD_EXIT|[19]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.avoidMultiplePrimaryContact(Map<Id,Contact>)
+20:10:06.3 (388223249)|CODE_UNIT_FINISHED|shatrughna94.ContactTriggerVersion1 on Contact trigger event AfterUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.3 (391765887)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+20:10:06.3 (391785831)|SYSTEM_MODE_EXIT|false
+20:10:06.3 (391799953)|METHOD_EXIT|[19]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.avoidMultiplePrimaryContact(Map<Id,Contact>)
+20:10:06.3 (393608461)|CODE_UNIT_FINISHED|shatrughna94.ContactTriggerVersion1 on Contact trigger event AfterUpdate|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+20:10:06.3 (446223782)|CODE_UNIT_FINISHED|TRIGGERS
+20:10:06.3 (446254004)|EXECUTION_FINISHED

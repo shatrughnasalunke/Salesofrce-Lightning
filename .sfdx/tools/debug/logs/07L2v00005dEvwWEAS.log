@@ -1,0 +1,130 @@
+52.0 APEX_CODE,FINEST;APEX_PROFILING,NONE;CALLOUT,NONE;DB,NONE;NBA,NONE;SYSTEM,DEBUG;VALIDATION,NONE;VISUALFORCE,NONE;WAVE,NONE;WORKFLOW,NONE
+09:19:01.0 (181626)|USER_INFO|[EXTERNAL]|0052v00000gO34I|shatrughna@lightning.com|(GMT+05:30) India Standard Time (Asia/Colombo)|GMT+05:30
+09:19:01.0 (230787)|EXECUTION_STARTED
+09:19:01.0 (235139)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+09:19:01.0 (259973)|CODE_UNIT_STARTED|[EXTERNAL]|01q2v0000014dcx|shatrughna94.ContactTriggerVersion1 on Contact trigger event BeforeInsert|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+09:19:01.0 (312109)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+09:19:01.0 (742174)|HEAP_ALLOCATE|[79]|Bytes:3
+09:19:01.0 (810556)|HEAP_ALLOCATE|[84]|Bytes:152
+09:19:01.0 (826693)|HEAP_ALLOCATE|[399]|Bytes:408
+09:19:01.0 (840939)|HEAP_ALLOCATE|[412]|Bytes:408
+09:19:01.0 (854128)|HEAP_ALLOCATE|[520]|Bytes:48
+09:19:01.0 (880633)|HEAP_ALLOCATE|[139]|Bytes:6
+09:19:01.0 (913997)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+09:19:01.0 (929053)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+09:19:01.0 (1001459)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5b17e82d
+09:19:01.0 (1041056)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+09:19:01.0 (1102330)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+09:19:01.0 (1127982)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x5b17e82d
+09:19:01.0 (1138399)|STATEMENT_EXECUTE|[1]
+09:19:01.0 (1140616)|STATEMENT_EXECUTE|[3]
+09:19:01.0 (1170357)|HEAP_ALLOCATE|[52]|Bytes:5
+09:19:01.0 (1197818)|HEAP_ALLOCATE|[58]|Bytes:5
+09:19:01.0 (1208292)|HEAP_ALLOCATE|[66]|Bytes:7
+09:19:01.0 (1390873)|HEAP_ALLOCATE|[5]|Bytes:12
+09:19:01.0 (1448336)|STATEMENT_EXECUTE|[5]
+09:19:01.0 (2767733)|CODE_UNIT_FINISHED|shatrughna94.ContactTriggerVersion1 on Contact trigger event BeforeInsert|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+09:19:01.220 (220677670)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (249731301)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (259815005)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (259968024)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (260037705)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (260650164)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (260902512)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (261917605)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (261975454)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (264248563)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (285516939)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (294135064)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (295606758)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (297173244)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (298104596)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (298326018)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (298910303)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (298966359)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (299217493)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (299478904)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (299817739)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (300087705)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (300220142)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (300791421)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (300820577)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (302614150)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (303987675)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (309008098)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (309752294)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (319681356)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (319833093)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (320498237)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (320530782)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (321574264)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (323162567)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (323834750)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (324653606)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (332289332)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.220 (332991155)|ENTERING_MANAGED_PKG|amazonconnect
+09:19:01.0 (409388862)|CODE_UNIT_STARTED|[EXTERNAL]|01q2v0000014dcx|shatrughna94.ContactTriggerVersion1 on Contact trigger event AfterInsert|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+09:19:01.0 (409464478)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+09:19:01.0 (409555387)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+09:19:01.0 (409574570)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+09:19:01.0 (409628918)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x462ae178
+09:19:01.0 (409666104)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+09:19:01.0 (409673401)|VARIABLE_SCOPE_BEGIN|[1]|this|shatrughna94.ContactTriggerVersion1|true|false
+09:19:01.0 (409688760)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x462ae178
+09:19:01.0 (409698383)|STATEMENT_EXECUTE|[1]
+09:19:01.0 (409700958)|STATEMENT_EXECUTE|[3]
+09:19:01.0 (409761943)|HEAP_ALLOCATE|[5]|Bytes:12
+09:19:01.0 (409909056)|STATEMENT_EXECUTE|[11]
+09:19:01.0 (409912026)|STATEMENT_EXECUTE|[13]
+09:19:01.0 (419532544)|HEAP_ALLOCATE|[13]|Bytes:3
+09:19:01.0 (419566314)|HEAP_ALLOCATE|[13]|Bytes:10
+09:19:01.0 (419601341)|METHOD_ENTRY|[1]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.ContactTriggerHelperV1()
+09:19:01.0 (419613697)|STATEMENT_EXECUTE|[1]
+09:19:01.0 (419623281)|STATEMENT_EXECUTE|[1]
+09:19:01.0 (420317779)|SYSTEM_MODE_ENTER|false
+09:19:01.0 (420335635)|HEAP_ALLOCATE|[13]|Bytes:5
+09:19:01.0 (420347609)|SYSTEM_MODE_EXIT|false
+09:19:01.0 (420360379)|METHOD_EXIT|[1]|shatrughna94.ContactTriggerHelperV1
+09:19:01.0 (420400915)|METHOD_ENTRY|[13]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.getContactCount(List<Contact>, List<Contact>)
+09:19:01.0 (420448841)|VARIABLE_SCOPE_BEGIN|[7]|newValues|List<Contact>|true|false
+09:19:01.0 (421522949)|VARIABLE_ASSIGNMENT|[7]|newValues|[{"LastModifiedDate":"2021-11-27T03:49:01.000Z","IsDeleted":false,"AccountId":"0012v00003Kw68CAAR","IsEmailBounced":false,"DoNotCall":false,"FirstName":"Daniel","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T03:49:01.996Z","SystemModstamp":"2021-11-27T03:49:01.000Z","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T03:49:01.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny3iRAAQ","LastName":"Torres","LastModifiedById":"0052v00000gO34IAAS"}]|0x5392ddac
+09:19:01.0 (421544936)|VARIABLE_SCOPE_BEGIN|[7]|oldValues|List<Contact>|true|false
+09:19:01.0 (421556001)|VARIABLE_ASSIGNMENT|[7]|oldValues|null|
+09:19:01.0 (421570260)|SYSTEM_MODE_ENTER|false
+09:19:01.0 (421579218)|HEAP_ALLOCATE|[9]|Bytes:5
+09:19:01.0 (421587401)|STATEMENT_EXECUTE|[7]
+09:19:01.0 (421589603)|STATEMENT_EXECUTE|[9]
+09:19:01.0 (421594521)|HEAP_ALLOCATE|[9]|Bytes:22
+09:19:01.0 (422277478)|HEAP_ALLOCATE|[9]|Bytes:1494
+09:19:01.0 (422308281)|HEAP_ALLOCATE|[9]|Bytes:1516
+09:19:01.0 (422327042)|USER_DEBUG|[9]|DEBUG|Trigger.New Values--->(Contact:{Id=0032v00003ny3iRAAQ, IsDeleted=false, MasterRecordId=null, AccountId=0012v00003Kw68CAAR, Salutation=null, FirstName=Daniel, LastName=Torres, OtherStreet=null, OtherCity=null, OtherState=null, OtherPostalCode=null, OtherCountry=null, OtherLatitude=null, OtherLongitude=null, OtherGeocodeAccuracy=null, MailingStreet=null, MailingCity=null, MailingState=null, MailingPostalCode=null, MailingCountry=null, MailingLatitude=null, MailingLongitude=null, MailingGeocodeAccuracy=null, Phone=null, Fax=null, MobilePhone=null, HomePhone=null, OtherPhone=null, AssistantPhone=null, ReportsToId=null, Email=null, Title=null, Department=null, AssistantName=null, LeadSource=null, Birthdate=null, Description=null, CurrencyIsoCode=INR, OwnerId=0052v00000gO34IAAS, HasOptedOutOfEmail=false, HasOptedOutOfFax=false, DoNotCall=false, CreatedDate=2021-11-27 03:49:01, CreatedById=0052v00000gO34IAAS, LastModifiedDate=2021-11-27 03:49:01, LastModifiedById=0052v00000gO34IAAS, SystemModstamp=2021-11-27 03:49:01, LastActivityDate=null, LastCURequestDate=null, LastCUUpdateDate=null, LastViewedDate=null, LastReferencedDate=null, EmailBouncedReason=null, EmailBouncedDate=null, IsEmailBounced=false, PhotoUrl=null, Jigsaw=null, JigsawContactId=null, CleanStatus=Pending, IndividualId=null, shatrughna94__Level__c=null, shatrughna94__Languages__c=null, shatrughna94__Check__c=false, shatrughna94__Lastactivitydate__c=null, shatrughna94__PrimarContact__c=false, shatrughna94__Date__c=2021-11-27 03:49:01})
+09:19:01.0 (422349258)|STATEMENT_EXECUTE|[10]
+09:19:01.0 (422354121)|HEAP_ALLOCATE|[10]|Bytes:22
+09:19:01.0 (422395068)|HEAP_ALLOCATE|[10]|Bytes:26
+09:19:01.0 (422406108)|USER_DEBUG|[10]|DEBUG|Trigger.Old Values--->null
+09:19:01.0 (422414368)|STATEMENT_EXECUTE|[11]
+09:19:01.0 (422429181)|HEAP_ALLOCATE|[11]|Bytes:4
+09:19:01.0 (422476005)|VARIABLE_SCOPE_BEGIN|[11]|accountIds|Set<Id>|true|false
+09:19:01.0 (422504670)|VARIABLE_ASSIGNMENT|[11]|accountIds|[]|0x60a24efe
+09:19:01.0 (422548367)|HEAP_ALLOCATE|[13]|Bytes:5
+09:19:01.0 (422569866)|VARIABLE_SCOPE_BEGIN|[13]|acc|Contact|true|false
+09:19:01.0 (422921697)|VARIABLE_ASSIGNMENT|[13]|acc|{"LastModifiedDate":"2021-11-27T03:49:01.000Z","IsDeleted":false,"AccountId":"0012v00003Kw68CAAR","IsEmailBounced":false,"DoNotCall":false,"FirstName":"Daniel","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false,"shatrughna94__Check__c":false,"CurrencyIsoCode":"INR","shatrughna94__Date__c":"2021-11-27T03:49:01.996Z","SystemModstamp":"2021-11-27T03:49:01.000Z","CleanStatus":"Pending","OwnerId":"0052v00000gO34IAAS","CreatedById":"0052v00000gO34IAAS","CreatedDate":"2021-11-27T03:49:01.000Z","shatrughna94__PrimarContact__c":false,"Id":"0032v00003ny3iRAAQ","LastName":"Torres","LastModifiedById":"0052v00000gO34IAAS"}|0x251880fb
+09:19:01.0 (422937266)|STATEMENT_EXECUTE|[13]
+09:19:01.0 (422939423)|STATEMENT_EXECUTE|[14]
+09:19:01.0 (422997247)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+09:19:01.0 (423023836)|HEAP_ALLOCATE|[13]|Bytes:5
+09:19:01.0 (423041058)|VARIABLE_ASSIGNMENT|[13]|acc|null|
+09:19:01.0 (423107782)|HEAP_ALLOCATE|[16]|Bytes:41
+09:19:01.0 (423131440)|SYSTEM_MODE_EXIT|false
+09:19:01.0 (423143770)|METHOD_EXIT|[13]|01p2v00000Ttl1J|shatrughna94.ContactTriggerHelperV1.getContactCount(List<Contact>, List<Contact>)
+09:19:01.0 (423403125)|FATAL_ERROR|System.NullPointerException: Attempt to de-reference a null object
+
+Class.shatrughna94.ContactTriggerHelperV1.getContactCount: line 16, column 1
+Trigger.shatrughna94.ContactTriggerVersion1: line 13, column 1
+09:19:01.0 (423417668)|FATAL_ERROR|System.NullPointerException: Attempt to de-reference a null object
+
+Class.shatrughna94.ContactTriggerHelperV1.getContactCount: line 16, column 1
+Trigger.shatrughna94.ContactTriggerVersion1: line 13, column 1
+09:19:01.0 (425451582)|CODE_UNIT_FINISHED|shatrughna94.ContactTriggerVersion1 on Contact trigger event AfterInsert|__sfdc_trigger/shatrughna94/ContactTriggerVersion1
+09:19:01.0 (479320170)|CODE_UNIT_FINISHED|TRIGGERS
+09:19:01.0 (479340950)|EXECUTION_FINISHED

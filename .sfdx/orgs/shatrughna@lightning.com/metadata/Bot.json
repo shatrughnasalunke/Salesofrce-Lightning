@@ -1,0 +1,29 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052v00000gO34IAAS",
+      "createdByName": "Shatrughna Salunke",
+      "createdDate": "2020-02-04T06:23:42.000Z",
+      "fileName": "bots/Bot.bot",
+      "fullName": "Bot",
+      "id": "0Xx2v00000005dACAQ",
+      "lastModifiedById": "0052v00000gO34IAAS",
+      "lastModifiedByName": "Shatrughna Salunke",
+      "lastModifiedDate": "2021-08-25T08:22:30.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "0052v00000gO34IAAS",
+      "createdByName": "Shatrughna Salunke",
+      "createdDate": "2020-02-02T17:00:03.000Z",
+      "fileName": "bots/Pilot_Customer_Support.bot",
+      "fullName": "Pilot_Customer_Support",
+      "id": "0Xx2v00000005YZCAY",
+      "lastModifiedById": "0052v00000gO34IAAS",
+      "lastModifiedByName": "Shatrughna Salunke",
+      "lastModifiedDate": "2021-08-25T08:09:08.000Z",
+      "type": "Bot"
+    }
+  ]
+}

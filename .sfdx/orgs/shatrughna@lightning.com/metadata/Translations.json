@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0052v00000gO34IAAS",
+    "createdByName": "Shatrughna Salunke",
+    "createdDate": "2021-06-22T06:24:08.000Z",
+    "fileName": "translations/de.translation",
+    "fullName": "de",
+    "id": "01h2v000000TqsMAAS",
+    "lastModifiedById": "0052v00000gO34IAAS",
+    "lastModifiedByName": "Shatrughna Salunke",
+    "lastModifiedDate": "2021-09-01T03:27:33.000Z",
+    "manageableState": "unmanaged",
+    "type": "Translations"
+  }
+}
