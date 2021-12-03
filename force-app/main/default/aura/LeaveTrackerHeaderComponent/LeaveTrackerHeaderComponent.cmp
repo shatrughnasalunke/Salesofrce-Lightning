@@ -1,0 +1,13 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" 
+                            access="global" >
+
+    <lightning:layout class="slds-page-header slds-page-header_object-home">
+      
+        <lightning:layoutItem>
+            <lightning:icon iconName="standar:scan_ard" aletrnativeText="levae Tracker">
+            </lightning:icon>
+        </lightning:layoutItem>    
+   
+    </lightning:layout>
+    
+</aura:component>

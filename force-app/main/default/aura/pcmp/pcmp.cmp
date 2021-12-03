@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+    <aura:attribute name ="fraudId" type="String"/>
+	<aura:handler name="comEvent" event="c:cmpEvent"  action="{!c.handleComponentEvent}"/>
+    <c:ChildComponentC1/>
+    
+    <p>
+        Fraud id is : {!v.fraudId}
+    </p>   
+</aura:component>

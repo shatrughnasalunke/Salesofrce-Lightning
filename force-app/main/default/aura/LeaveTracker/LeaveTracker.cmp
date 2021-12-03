@@ -1,0 +1,159 @@
+<aura:component controller= "LeaveTracker" 
+                             implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" 
+                             access="global" >
+    <!-- File Attchement Attribute -->
+        <aura:attribute name="filetype" type="List" default="['.png', '.jpg', '.jpeg']" />
+        <aura:attribute name="multiple" type="Boolean" default="true" />
+        <aura:attribute name="disabled" type="Boolean" default="true" />
+        <aura:attribute name="recordId" type="String" />
+    <!--File Attachment Attribute -->
+    <aura:attribute name="sick_or_vactiontype" type="String" />
+    <aura:attribute name="levaeType" type="String" />
+    <aura:attribute name = "totalWeekend" type="String" />
+    <aura:attribute name ="checkHolidayList" type="List"/>
+    <aura:attribute name="weekend" type="string" />
+    <aura:attribute name="ratingList" type="List" />
+    <aura:attribute name="leaveTypeList" type="List" />
+    <aura:attribute name="listOfBalance" type="List" />
+    <aura:attribute name="totalleaveapply" type="Integer"  default="0"/>
+    <aura:attribute name="checkDays" type="boolean" default="false" />
+    <aura:attribute name="applyleave" type="LeaveManagement__c"/>
+    <aura:attribute name="objName" type="String" default="shatrughna94__LeaveManagement__c" />
+    <aura:attribute name="fldName" type="String" default="shatrughna94__LeaveType__c" />
+    <aura:attribute name="leaveType" type="String" default="shatrughna94__Type__c" />
+    <aura:attribute name="selectedLookUpRecord" type="sObject" default="{}"/>
+    <!--Aura Handler-->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <div >
+        <div class= "slds-box"> 
+            <div aura:id="myDiv" 
+                 class="c-container 
+                 slds-align_absolute-center" 
+                 style="height:5rem slds-box">
+                
+                <lightning:layout >
+                    <lightning:layoutItem padding="around-small">
+                        <!-- Contact and Leave balance information-->
+                        <aura:iteration items="{!v.listOfBalance}" var="item">
+                            
+                            <lightning:input aura:id="leave" type="Text" label="Name" 
+                                             value="{!item.shatrughna94__Contact__r.Name}" 
+                                             readonly = "true"/>
+                            
+                            <lightning:input aura:id="leave" 
+                                             type="Text" label="Sick Balance" 
+                                             value="{!item.shatrughna94__SickLeave__c}" 
+                                             readonly = "true"/>
+                            <lightning:input aura:id="leave" 
+                                             type="Text" 
+                                             label="Vactaion Balance"
+                                             value="{!item.shatrughna94__VacationLeave__c}" 
+                                             readonly ="true"/>
+                        </aura:iteration>
+                        <c:LeaveTrackingManagerLookupComponentParent 
+                                      objectAPIName="User" 
+                                      IconName="standard:User" 
+                                      selectedRecord="{!v.selectedLookUpRecord}"
+                                      label="Managers Name"/>
+                       
+                        <!-- Contact and Leave balance information-->
+                        <!--FROM Date-->
+                        <lightning:input required="true" 
+                                         onchange = "{!c.calculateDay}"  
+                                         aura:id="startDate" 
+                                         type="Date" 
+                                         label="From Date" 
+                                         name="From Date"/>
+                       
+                    </lightning:layoutItem>
+                    
+                    <lightning:layoutItem padding="around-small">
+                       
+                        <!--<lightning:select required="true" onchange = "{!c.calculateDay}" 
+                                          aura:id="ltype" 
+                                          label="Leave Type" 
+                                          value="{!v.applyleave.shatrughna94__Type__c}">
+                            
+                            <option value="">—None—</option>
+                            <aura:iteration items="{!v.ratingList}" var="ac">
+                                <option value="{!ac}">{!ac}</option>
+                            </aura:iteration>   
+                        </lightning:select>-->
+                       
+                        <!--<lightning:select required="true" 
+                                          name="distance"  
+                                          onchange="{!c.doSave}" 
+                                          aura:id="distance"
+                                          label="Full / Half" 
+                                          value="{!v.applyleave.shatrughna94__LeaveType__c}">
+                      
+                            <option value="">—None—</option>
+                            <aura:iteration items="{!v.leaveTypeList}" var="ac">
+                                <option value="{!ac}">{!ac}</option>
+                            </aura:iteration>
+                         </lightning:select>-->
+                         <lightning:select label="Type" 
+                                              onchange="{!c.getPersonalLeave}" 
+                                              aura:id="sick_or_vactiontype" >
+                             <option value="Vaction Leave">Vaction Leave</option>
+                             <option value="Sick Leave">Sick Leave</option>
+                            </lightning:select>
+                           <lightning:select label="Full/Half" 
+                                              onchange="{!c.fullOrHalf}" 
+                                              aura:id="levaeType" >
+                                <option value="Full">Full</option>
+                                <option value="First">First Half</option>
+                                <option value="Second">Second Half</option>
+                            </lightning:select>
+                        <!--Attchment and Reason Section -->
+                        <lightning:input aura:id="leave5"
+                                         required="true" 
+                                         type="text" label='Reason'/>
+                        
+                        <lightning:fileUpload label="Attach Receipt"
+                                              name="fileUploader"
+                                              multiple="true"
+                                              accept="{!v.filetype}"
+                                              recordId="{!v.recordId}"
+                                              onuploadfinished="{!c.handleUploadFinished}" />
+                        <!--To Date-->
+                        <lightning:input onchange = "{!c.calculateDay}"  
+                                         aura:id="ToDate" 
+                                         type="Date" label="To Date" />
+                    </lightning:layoutItem>
+                </lightning:layout>
+            </div>  
+           <!-- Total Leave Apply Section-->
+           <div class="slds-align_absolute-center" style="height:5rem slds-box">
+                    <aura:if isTrue="{!v.checkDays}">
+                        <br/><br/>
+                        <center>
+                            <p>Total Leave : {!v.totalleaveapply}</p> 
+                        </center>
+                        <aura:set attribute="else">
+                             false
+                        </aura:set>
+                    </aura:if> 
+            </div>
+            <div class="slds-align_absolute-center" style="height:5rem slds-box">
+            <!--Lightning button-->
+                 <br/><br/>
+            		    <lightning:button aura:id="leave" 
+                                          label="Save"
+                                          iconPosition="left"
+                                          variant="brand" 
+                                          onclick="{!c.doSave}"/>
+                        <lightning:button aura:id="leave"
+                                          label="Edit" 
+                                          iconPosition="right"
+                                          variant="destructive" 
+                                          onclick="{!c.docancel}"/>
+                        <lightning:button aura:id="leave" 
+                                          label="Submit" 
+                                          iconPosition="right" 
+                                          variant="destructive" 
+                                          onclick="{!c.submitApproval}"/>  
+               </div>
+        </div>         
+</div>
+</aura:component>

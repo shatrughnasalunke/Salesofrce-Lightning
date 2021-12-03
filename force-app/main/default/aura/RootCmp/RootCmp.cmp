@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:handler name="cmpEvent" event="c:cmpEvent" action = "{!c.handleEvent}" includeFacets="true" />
+    <h2>Root Component </h2>
+    {!v.body}
+</aura:component>

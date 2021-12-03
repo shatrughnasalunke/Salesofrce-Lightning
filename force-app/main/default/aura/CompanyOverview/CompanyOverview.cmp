@@ -1,0 +1,17 @@
+<aura:component controller="CompanyOverview" implements="force:hasRecordId,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+ 
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>   
+    <aura:attribute name="accountOverView" type="List" />
+    <aura:attribute name="recordId" type="String" />
+    
+    <div class="slds-box slds-box_small" style="background-color:rgb(115 175 228)">
+         <h1>
+            <b style='font-size: large'>Overview</b>
+         </h1>   
+        
+        <br/>
+        <aura:iteration items="{!v.accountOverView}" var="item">
+         				 {!item}
+        </aura:iteration> 
+    </div>  
+</aura:component>

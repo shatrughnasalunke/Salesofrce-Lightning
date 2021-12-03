@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute  name="getMessageName" type="String"/>
+    <aura:handler event="c:appEvent1" action="{!c.handleEvent}"/>
+    <p> 
+        my messsage 
+        {!v.getMessageName} 
+    </p>
+</aura:component>

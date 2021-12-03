@@ -1,0 +1,15 @@
+<aura:component  Controller="BroadCastMessage" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute type="List" name="broadCastMessage"/>
+    <aura:attribute name="Today" type="Date" />  
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="intervalId" type="Integer" default="0"/>    
+    <div class="slds-box slds-theme_shade slds-theme_alert-texture" >
+        <b><span style="color:red">Important Note : 
+            </span></b>
+        <p style="position:relative; color:red"  id="tofloat">
+            <aura:iteration items="{!v.broadCastMessage}" var="type">
+              <p>Tomorrow is {!type.shatrughna94__HOLIDAY__c} holiday in United Kingdom.</p>
+            </aura:iteration>
+        </p>
+    </div>
+</aura:component>

@@ -1,0 +1,9 @@
+<aura:component implements ="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+                			access="global" >
+    <!--Attribute Decalratio-->
+    <aura:attribute name = "accountId" type="String"/>
+    <aura:registerEvent name ="eventRegisterName" type = "c:ComEventExample" />
+    <p>
+       <lightning:button label="Click here to fire a component event" onclick="{!c.fireComponentEvent}"/>
+    </p>
+</aura:component>

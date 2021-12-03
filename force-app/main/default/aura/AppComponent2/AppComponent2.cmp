@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:attribute name="message" type="string" />
+    <aura:handler  event="c:ApplicationEvent" 
+                  action="{!c.handleEvent}" includeFacets="true"/>
+</aura:component>

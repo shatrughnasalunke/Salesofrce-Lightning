@@ -1,0 +1,110 @@
+<aura:component controller="CallBankDetailsCustomerAPI" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+   <!--aura init handler , call js "loadData" function on component load, and display contact data on table-->   
+    <aura:handler name="init" value="{!this}" action="{!c.loadData}"/>
+    <aura:attribute name="wrapperList" type="List"/>
+    <aura:attribute name="isOpen" type="boolean" default="false"/>
+    <aura:attribute name="reecordId" type="Id" />
+ 
+    <aura:attribute name="FirstName" type="String"/>
+    <aura:attribute name="LastName" type="String"/>
+    <aura:attribute name="Salutation" type="String"/>
+   
+    <div class="slds-p-around--large">
+        <h1 style="font-size:25px;">REST API EXAMPLE</h1> 
+        <br/>
+        <!--https://www.lightningdesignsystem.com/components/data-tables/-->
+        <table id="myTable" class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_striped" aria-label="Example table of Opportunities with striped rows">
+           
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th scope="col">
+                        <div class="slds-truncate" title="First Name">Salutation</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="First Name">First Name</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="First Name">Last Name</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Department">Email</div>
+                    </th>
+                     <th scope="col">
+                        <div class="slds-truncate" title="First Name">Birthdate</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="First Name">Mobile Phone</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="First Name">Active</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Department">Nominee</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Department">Pan Number</div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Primary Account">Primary Account</div>
+                    </th>
+                     <th style="center-alined"> 
+                         <div class="slds-truncate" title="Action"> Action</div>
+                    </th>
+                </tr>
+            </thead>
+            <!--table body start, 
+        Iterate contact list as a <tr>
+        -->
+            <tbody  >
+                <aura:iteration items="{!v.wrapperList}" var="customer">
+                    <tr>
+                        <th scope="row">
+                            <div class="slds-truncate" title="{!customer.Salutation}">{!customer.Salutation}</div>
+                        </th> 
+                        <th scope="row">
+                            <div class="slds-truncate" title="{!customer.FirstName}">{!customer.FirstName}</div>
+                        </th>
+                        <th scope="row">
+                            <div class="slds-truncate" title="{!customer.LastName}">{!customer.LastName}</div>
+                        </th>
+                        <th scope="row">
+                            <div class="slds-truncate" title="{!customer.Email}">{!customer.Email}</div>
+                        </th>
+                        <th>
+                            <div class="slds-truncate" title="{!customer.Birthdate}">{!customer.Birthdate} </div>
+                        </th>
+                        <th> 
+                            <div class="slds-truncate" title="{!customer.MobilePhone}">{!customer.MobilePhone}</div>
+                        </th>
+                        <th>
+                            <div class="slds-truncate" title="{!customer.Active}">{!customer.Active}</div>
+                        </th>
+                        <th>
+                            <div class="slds-truncate" titke="{!customer.NomineeUpdated}">{!customer.NomineeUpdated}</div>
+                        </th>
+                        <th>
+                            <div class="slds-truncate" titke="{!customer.PANNumber}">{!customer.PANNumber}</div>
+                        </th>
+                        <th>
+                            <div class="slds-truncate" title="{!customer.PrimaryAccount}">{!customer.PrimaryAccount}</div>
+                        </th>
+                        <th>
+                            <div class="slds-truncate" titie="Action">
+                                <button type="button" onclick="{!c.editResponse}" id="{!customer.Id}" class="slds-button slds-button_brand">Edit</button>
+                                <button type="button" onclick="{!c.deleteRecord}" id="{!customer.Id}" class="slds-button slds-button_destructive" >Delete</button>
+                            </div>
+                        </th>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+    </div>
+    <aura:if isTrue="{!v.isOpen}">
+       <c:UpdateCustomerDetailApI recordId="{!v.reecordId}" 
+                                  isOpen="{!v.isOpen}"
+                                  FirstName="{!v.FirstName}"
+                                  LastName="{!v.LastName}"
+                                  Salutation="{!v.Salutation}"
+       />
+   </aura:if>
+</aura:component>

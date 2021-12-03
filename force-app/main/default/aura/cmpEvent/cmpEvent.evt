@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="Capture and Bubble Phase Example">
+    <aura:attribute name="accountIds" type="String" />
+</aura:event>

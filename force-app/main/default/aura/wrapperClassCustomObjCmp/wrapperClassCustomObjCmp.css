@@ -1,0 +1,9 @@
+.THIS {
+}
+.THIS .slds-table thead tr th {background-color:#C0C0C0;}
+.THIS .slds-table thead tr th, .THIS .slds-table tbody tr td {border:1px #dddbda solid; border-collapse: collapse; white-space: normal;}
+.THIS .editSpan:before{content:''; width:17px; height:17px; display:inline-block;background:url(/resource/SLDS2016/assets/icons/utility/edit_120.png) no-repeat left top; background-size:cover; cursor: pointer;}
+.THIS .saveSpan:before{content:''; width:17px; height:11px; display:inline-block;background:url(/resource/SaveToCloud) no-repeat left top; background-size:cover; cursor: pointer;}
+.THIS .delSpan:before{content:''; width:17px; height:17px; display:inline-block;background:url(/resource/delete) no-repeat left top; background-size:cover; cursor: pointer;}
+.THIS .cancelSpan:before{content:''; width:17px; height:17px; display:inline-block;background:url(/resource/closeIcon) no-repeat left top; background-size:cover; cursor: pointer;}
+.THIS .createRecord:before{content:''; width:15px; height:17px; display:inline-block;background:url(/resource/createRecordIcon) no-repeat left top; background-size:cover; cursor: pointer;}

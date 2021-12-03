@@ -1,0 +1,17 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+	<lightning:recordViewForm recordId="{!v.recordId}" objectApiName="shatrughna94__Customer__c">
+        <div class="slds-box">
+            <lightning:outputField fieldName="shatrughna94__FirstName__c" />
+            <lightning:outputField fieldName="shatrughna94__LastName__c" />
+            <lightning:outputField fieldName="shatrughna94__Birthdate__c" />
+            <lightning:outputField fieldName="shatrughna94__Email__c" />
+            <lightning:outputField fieldName="shatrughna94__Account__c" />
+            <lightning:outputField fieldName="Email" />
+            <lightning:outputField fieldName="Name" />
+            <lightning:outputField fieldName="Email" />
+            <lightning:outputField fieldName="Name" />
+            <lightning:outputField fieldName="Email" />
+        </div>
+    </lightning:recordViewForm>
+</aura:component>

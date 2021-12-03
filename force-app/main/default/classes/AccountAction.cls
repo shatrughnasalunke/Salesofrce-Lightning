@@ -9,16 +9,12 @@
  * 1.0   05-21-2021   ChangeMeIn@UserSettingsUnder.SFDoc   Initial Version
 **/
 
-
 public   class   AccountAction {  
        /**
        * @description 
        * @author ChangeMeIn@UserSettingsUnder.SFDoc | 05-21-2021 
        **/
        public static void getData() {
-
             
        }
-
-
 }

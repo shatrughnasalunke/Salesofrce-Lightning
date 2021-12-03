@@ -1,0 +1,4 @@
+<aura:component >
+    <c:cmp1/>
+    <aura:handler name="cmpEvent" event="c:appEvent1" action="{!c.handleComponentEvent}" phase="capture"/>
+</aura:component>

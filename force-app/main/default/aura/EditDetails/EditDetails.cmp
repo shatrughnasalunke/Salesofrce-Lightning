@@ -1,0 +1,29 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+    <div class="slds-p-bottom-large slds-p-lefte_large" style="width:500px">
+        <h1>Shatrughna Salunke</h1>
+        {!v.recordId}
+        <lightning:messages/>
+        <lightning:recordEditForm aura:id ="recordEditForm" 
+                                  recordId ="{!v.recordId}"
+                                  objectApiName="Account">
+            <lightning:inputField fieldName="Name" />
+            <lightning:inputField fieldName="LastName" />
+            <lightning:inputField fieldName="Birthdate" />
+            <lightning:inputField fieldName="Phone"/>
+            <lightning:inputField fieldName="Industry"/>
+            <lightning:button  aura:id="submit" type="submit" label="Update Record" class ="slds-m-top_medium"/> 
+        </lightning:recordEditForm>
+    </div>
+    <br/>
+    <br/>
+     <div class ="slds-box"> 
+        	<lightning:recordViewForm recordId="{!v.recordId}" 
+                                      objectApiName="Account">
+            <lightning:outputField fieldName ="Name"/>
+            <lightning:outputField fieldName ="Industry"/>
+            <lightning:outputField fieldName = "Rating" />
+       </lightning:recordViewForm>
+          
+   </div>   
+</aura:component>

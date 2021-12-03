@@ -1,0 +1,74 @@
+<aura:component controller="wrapperCustomObjCtrCmp" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,lightning:isUrlAddressable" access="global" >
+    
+    <aura:attribute name="wrapListItems" type="NewStudent__c[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="recSelectId" type="String" default=""/>
+    
+    <div class="slds slds-p-horizontal--medium">
+        <table class="slds-table slds-table--bordered slds-table--col-bordered" style="border-collapse:collapse;">
+            <thead> 
+                <tr>
+                    <th>Student Name</th>
+                    <th>Address</th>
+                    <th>Email</th>                     
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration items="{!v.wrapListItems}" var="wrapVar" indexVar="index">
+                    <tr id="{!wrapVar.recStudentId}">
+                        <aura:if isTrue="{!wrapVar.editMode}"> 
+                            <td><ui:inputText aura:id="studentName"  value="{!wrapVar.studentName}"/></td>
+                            <aura:set attribute="else">
+                                <td>{!wrapVar.studentName}</td>
+                            </aura:set>
+                        </aura:if>
+                        
+                        <aura:if isTrue="{!wrapVar.editMode}"> 
+                            <td><ui:inputTextArea aura:id="addressId" value="{!wrapVar.studentAddress}" rows="2"/></td>
+                            <aura:set attribute="else">
+                                <td>{!wrapVar.studentAddress}</td>
+                            </aura:set>
+                        </aura:if>
+                        
+                         <aura:if isTrue="{!wrapVar.editMode}"> 
+                            <td><ui:inputEmail aura:id="emailId" value="{!wrapVar.studentEmail}"/></td>
+                            <aura:set attribute="else">
+                                <td>{!wrapVar.studentEmail}</td>
+                            </aura:set>
+                        </aura:if>
+                        
+                        <aura:if isTrue="{!wrapVar.editMode}">  
+                            <td>                                
+                                <a href="javascript:void(0);"><span class="saveSpan slds-m-left--small" title="Save" onclick="{!c.saveEditedTalent}" 
+                                                                    data-sfid="{!wrapVar.recStudentId}"
+                                                                    id="{!wrapVar.recStudentId}"
+                                                                    data-index="{!index}"></span></a>
+                                
+                                <a class="slds-text-color--error" href="javascript:void(0);"><span style="font-size:18px; font-weight:bold;" class="slds-m-left--small" title="Cancel" onclick="{!c.cancelEdit}" 
+                                                                    data-sfid=""
+                                                                    data-index="{!index}">X</span></a>
+                                
+                            </td>
+                            <aura:set attribute="else">
+                                <td> 
+                                    <a href="javascript:void(0);"><span class="editSpan slds-m-left--small" title="Edit" onclick="{!c.editTalent}" 
+                                                                        data-sfid="{!wrapVar.recStudentId}"
+                                                                        id="{!wrapVar.recStudentId}"
+                                                                        data-index="{!index}"></span></a>
+                                    
+                                    <a href="javascript:void(0);"><span class="delSpan slds-m-left--small" title="Delete" onclick="{!c.deleteRowId}" 
+                                                                        data-sfid="{!wrapVar.recStudentId}"
+                                                                        data-index="{!index}"></span></a>
+                                    
+                                </td>  
+                            </aura:set>
+                        </aura:if>
+                        
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+    </div>
+    
+</aura:component>

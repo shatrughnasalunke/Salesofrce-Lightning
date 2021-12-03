@@ -1,0 +1,21 @@
+<aura:component controller="SharingSecurityExample"
+                            
+                            implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    
+    <aura:attribute name="listOfRecord" type="List" />
+    <aura:handler name="init" value="this" action="{!c.fetchData}" />
+    <aura:iteration items="{!v.listOfRecord}" var="item">
+            <table>
+                <tr>
+                     <td>
+                           {!item.Name}
+                    </td>
+                     <td>
+                           {!item.shatrughna94__LastName__c}
+                    </td>
+                </tr>
+                   
+            </table>
+    </aura:iteration>
+    
+</aura:component>

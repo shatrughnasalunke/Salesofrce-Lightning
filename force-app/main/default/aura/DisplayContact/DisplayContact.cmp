@@ -1,0 +1,11 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+    
+	<aura:attribute name="messageFromEvent" type="String"/>
+    <aura:attribute name="accountId" type="String"/>
+    <aura:handler name="eventRegisterName" event="c:ComEventExample" action="{!c.handleComponentEvent}"/>
+    <!-- handler contains the notifier component -->
+    <c:AccountComponent/>
+    <p>AccountId from child component {!v.messageFromEvent}</p>
+    <p>AccountId Is: {!v.messageFromEvent}</p>
+    
+</aura:component>

@@ -1,0 +1,5 @@
+<aura:component >
+    <aura:registerEvent name="cmpEvent" type="c:cmpEvent"  />
+    <h3>Child Component</h3>
+    <lightning:button label="Call Child Component" name="Call Child Component" onclick="{!c.fireEvent}"/>
+</aura:component>
