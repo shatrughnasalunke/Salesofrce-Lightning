@@ -9,8 +9,8 @@ public class NewServiceForm {
         public string selectPicklistvalue{get;set;}
     }
  
-    public static void getData(List<DataClass> abs)
-    {
+
+    public static void getData(List<DataClass> abs) {
         for(DataClass x:abs)
         {
              Account ss=new Account();
