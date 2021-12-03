@@ -20,6 +20,7 @@ public class AccountActivationPorcess {
                     if (childAccount.Active__c ==True  && acc.Active__c == false) {
                           acc.addError('Please deactivate all child account');
                     }
+                    
                 }
             } 
         }
