@@ -15,6 +15,5 @@ public   class   AccountAction {
        * @author ChangeMeIn@UserSettingsUnder.SFDoc | 05-21-2021 
        **/
        public static void getData() {
-            
        }
 }
